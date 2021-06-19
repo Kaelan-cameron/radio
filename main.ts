@@ -9,6 +9,6 @@ input.onButtonPressed(Button.B, function () {
 })
 radio.setGroup(1)
 basic.forever(function () {
-    radio.sendValue("left", input.rotation(Rotation.Roll))
+    radio.sendValue("left", 0.1)
     basic.pause(500)
 })
